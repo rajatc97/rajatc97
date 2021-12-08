@@ -1,0 +1,14 @@
+mydict= {
+    100: "Aashish",
+    101: "Pooja",
+    "102": "Ankush",
+    "103": "Abc",
+    100: "Rajat",
+    103: "Rajat"
+}
+print(mydict)
+
+#With the help of key we have to print values
+
+a= mydict[101]
+print(a)
