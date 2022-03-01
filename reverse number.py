@@ -1,0 +1,12 @@
+a=input("Enter the value of a : ")
+b=input("Enter the value of b : ")
+c=input("Enter the value of c : ")
+print("Before reverse")
+print("Value of a: ",a)
+print("Value of b: ",b)
+print("Value of c: ",c)
+a,b,c=c,b,a
+print("After swapping")
+print("Value of a : ",a)
+print("Value of b : ",b)
+print("Value of c : ",c)
